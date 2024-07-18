@@ -1,0 +1,87 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C28251",
+          "message": {
+            "text": "Inconsistent annotation for 'WinMain': this instance has no annotations. See c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\um\\winbase.h(1037). "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Amina Akhtar/source/repos/L226198 A3/L226198 A3/mainorm.cpp"
+                },
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WinMain",
+                  "decoratedName": "?WinMain@@$$J0YAHPEAUHINSTANCE__@@0PEADH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32824.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Amina Akhtar/source/repos/L226198 A3/L226198 A3/mainorm.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0f406a2656ce24bfadbbb5616c912e511452aafef299df43dd0a27c5cf71dc9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/amina akhtar/source/repos/l226198 a3/l226198 a3/mainorm.h"
+          },
+          "hashes": {
+            "sha-256": "1f3d8822d5e46c9388b9a849526899caa1f51a51f65366151f97782dc9f4fb65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/amina akhtar/source/repos/l226198 a3/l226198 a3/startform.h"
+          },
+          "hashes": {
+            "sha-256": "bfb5f9c6ebdb8066981bc2381bc0d08a004a4391a82fc133f22767497bba86d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/amina akhtar/source/repos/l226198 a3/l226198 a3/lastform.h"
+          },
+          "hashes": {
+            "sha-256": "7d31e4503e10cabede8d0cbc16e954293698f800c61a989a15887a3910e0a84e"
+          }
+        }
+      ]
+    }
+  ]
+}

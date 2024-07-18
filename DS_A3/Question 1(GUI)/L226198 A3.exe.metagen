@@ -1,0 +1,44 @@
+  L226198A3.lastform.resources - Embedded, ContainedInManifestFile, 
+  L226198A3.mainorm.resources - Embedded, ContainedInManifestFile, 
+  L226198A3.startform.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly L226198 A3, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class L226198A3.mainorm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class L226198A3.startform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class L226198A3.lastform: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class queue_data<int>: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Node<int> front : Public
+    Node<int> rear : Public
+    Int32 size : Public
+  Methods:
+    enqueue(Int32* IsImplicitlyDereferenced): PrivateScope, Public, HideBySig
+    dequeue(): PrivateScope, Public, HideBySig
+    print(): PrivateScope, Public, HideBySig
+    getwinner(Int32): PrivateScope, Public, HideBySig
+Class Node<int>: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32, Node<int>): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    getdata(): PrivateScope, Public, HideBySig
+    getnext(): PrivateScope, Public, HideBySig
+    setnext(Node<int>): PrivateScope, Public, HideBySig

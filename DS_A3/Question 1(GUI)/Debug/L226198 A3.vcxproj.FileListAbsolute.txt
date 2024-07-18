@@ -1,0 +1,5 @@
+C:\Users\Amina Akhtar\source\repos\L226198 A3\L226198 A3\Debug\L226198 A3.vcxproj.AssemblyReference.cache
+C:\Users\Amina Akhtar\source\repos\L226198 A3\L226198 A3\Debug\L226198A3.lastform.resources
+C:\Users\Amina Akhtar\source\repos\L226198 A3\L226198 A3\Debug\L226198A3.mainorm.resources
+C:\Users\Amina Akhtar\source\repos\L226198 A3\L226198 A3\Debug\L226198A3.startform.resources
+C:\Users\Amina Akhtar\source\repos\L226198 A3\L226198 A3\Debug\L226198 A3.vcxproj.GenerateResource.cache
